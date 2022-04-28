@@ -13,7 +13,35 @@
 <body>
 
     <section id="FirstPart">
+        
+
         <div class="Header">
+
+            <script>
+                function myFunction(x){
+                    x.classList.toggle("change");
+    
+                    document.getElementById("myDropdown").style.display = document.getElementById("myDropdown").style.display == "block" ? "none" : "block";
+                }
+            </script>
+    
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+    
+                <div id="myDropdown" class="dropdown-content">
+                    <ul style="list-style-type: none; margin: 0; padding: 0; line-height: 25px; margin-top: 20px;">
+                        <li> <a href="#">Home</a></li>
+                        <li> <a href="#">Service</a></li>
+                        <li> <a href="#">Contact</a></li>
+                        <li> <a href="#">About</a></li>
+
+                    </ul>
+                    
+                </div>
+    
+            </div>
             <img src="images/logo.JPG" alt="" class="logoHeader">
     
             <h1 class="HeaderName">Happy Fashion </h1> 
@@ -28,12 +56,31 @@
     </section>
 
     <section id="SecondPart">
-        <div class="Body">
-            <img src="images/image1.JPG" alt="" class="bodyImageA">
-            <img src="images/image5.JPG" alt="" class="bodyImageB">
-            <img src="images/image6.JPG" alt="" class="bodyImageC">
-
+        <div class="gallery">
+            <div class="column">
+                <img src="images/image1.JPG" alt="" class="image">
+                <img src="images/image5.JPG" alt="" class="image"> 
+               
+    
+            </div>
+    
+            <div class="column">
+                <img src="images/image6.JPG" alt="" class="image">
+                <img src="images/image2.JPG" alt="" class="image">
+            </div>
+    
+            <div class="row">
+                <img src="images/image3.JPG" alt="" class="image">
+                <img src="images/image4.JPG" alt="" class="image">
+    
+            </div>
+    
+            <div class="row">
+                <img src="images/image7.JPG" alt="" class="image">
+                <img src="images/image8.JPG" alt="" class="image">
+            </div>
         </div>
+       
 
         <div class="firstAbout">
             <br>
@@ -68,29 +115,7 @@
 
     </section>
    
-    <section id="ThirdPart"> 
-        <div class="gallery">
-            <div class="column">
-                <img src="images/image2.JPG" alt="">
-                <img src="images/image3.JPG" alt="">
-                <img src="images/image4.JPG" alt="">
-                <img src="images/image7.JPG" alt="">
-                <img src="images/image8.JPG" alt="">
-            </div>
-
-            <div class="column">
-                <img src="images/image9.JPG" alt="">
-                <img src="images/image10.JPG" alt="">
-                <img src="images/image11.JPG" alt="">
-                <img src="images/image12.JPG" alt="">
-                <img src="images/image13.jpg" alt="">
-
-            </div>
-
-
-        </div>
-
-    </section>
+   
 
 
     
