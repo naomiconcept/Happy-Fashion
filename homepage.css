@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 
 .container{
@@ -49,7 +50,7 @@
 }
 
 .Header{
-    background-color: #E8C7C8;
+    background-color: #fadde1;
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 95px;
@@ -86,7 +87,7 @@ html, body{
     height: 30px;
     width: 150px;
     border-radius: 16px 16px;
-    background-color:#ffd7ba;
+    background-color:#ffc4d6;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -118,6 +119,7 @@ html, body{
 
 #SecondPart{
     background-color: white ;
+    
 }
 
 
@@ -150,10 +152,11 @@ html, body{
 
 
 .firstAbout{
-    background-color: #b5838d;
+    background-color: #ffc4d6;
     vertical-align: top;
     text-align: center;
     background-size: cover;
+    padding-bottom: 20px;
     
     
 }
@@ -164,7 +167,7 @@ html, body{
     height: 30px;
     width: 160px;
     border-radius: 16px 16px;
-    background-color:#fec89a;
+    background-color:#ffa6c1;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -178,7 +181,7 @@ html, body{
     height: 30px;
     width: 160px;
     border-radius: 16px 16px;
-    background-color:#fec89a;
+    background-color:#ffa6c1;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -192,9 +195,27 @@ html, body{
     height: 30px;
     width: 160px;
     border-radius: 16px 16px;
-    background-color:#fec89a;
+    background-color:#ffa6c1;
     display: block;
     margin-left: auto;
     margin-right: auto;
     
 }
+
+.footer_text{
+    letter-spacing: 5px;
+    font-family: 'Bangers', cursive;
+    font-size: 70px;
+
+}
+
+.footer{
+    text-align: center;
+    background-color: #ff5d8f;
+    background-size: cover;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+
+}
+
