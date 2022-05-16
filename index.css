@@ -112,7 +112,7 @@ html, body{
     display: inline-block;
     text-align: center;
     font-family: 'Tangerine', serif;  
-    font-size: 35px;
+    font-size: 3vw;
     white-space: nowrap;
    
 }
@@ -205,7 +205,7 @@ html, body{
 .footer_text{
     letter-spacing: 5px;
     font-family: 'Bangers', cursive;
-    font-size: 70px;
+    font-size: 6vw;
 
 }
 
