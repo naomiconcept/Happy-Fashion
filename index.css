@@ -21,7 +21,7 @@ a:hover{ text-decoration: none; color: black;}
 a:active{ text-decoration: none; color: black;}
 
 .bar1, .bar2, .bar3{
-    width: 35px;
+    width: 30px;
     height: 5px;
     background-color:black;
     margin: 5px 0;
@@ -61,7 +61,7 @@ a:active{ text-decoration: none; color: black;}
     background-color: #fadde1;
     background-blend-mode: multiply;
     background-size: cover;
-    padding-bottom: 95px;
+    padding-bottom: 70px;
     padding-top: 0;
     padding-top: 10px;
 }
@@ -99,7 +99,7 @@ html, body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .HeaderName{
@@ -108,7 +108,7 @@ html, body{
     font-size: 80px;
     margin-bottom: auto;
     letter-spacing: 5px;
-    margin-top: 10px;
+    margin-top: 5px;
     word-spacing: 5px;
     text-shadow: 4px 4px 4px #aaa;
     
@@ -116,7 +116,7 @@ html, body{
 }
 
 .spanText{
-    margin-top: 30px;
+    margin-top: 8px;
     display: inline-block;
     text-align: center;
     font-family: 'Tangerine', serif;  
@@ -128,7 +128,7 @@ html, body{
 
 .slide{
     padding-top: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 *{box-sizing: border-box;}
@@ -173,16 +173,6 @@ html, body{
 
 
 
-
-.numbertext{
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
-
 .dot{
     cursor: pointer;
     height: 15px;
@@ -210,7 +200,7 @@ html, body{
 
 
 #SecondPart{
-    padding-top: 100px;
+    padding-top: 70px;
     background-color: white ;
     
 }
@@ -269,7 +259,7 @@ html, body{
 .footer_text{
     letter-spacing: 5px;
     font-family: 'Bangers', cursive;
-    font-size: 9vw;
+    font-size: 8vw;
 
 }
 
@@ -277,8 +267,8 @@ html, body{
     text-align: center;
     background-color: #ff5d8f;
     background-size: cover;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     
 
 }
