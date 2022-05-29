@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 html, body{
     padding: 0;
     margin: 0;
@@ -64,3 +67,16 @@ input[type=submit] {
     text-align: center;
 }
 
+.Head{
+    margin-top: 0; 
+    padding-top: 20px; 
+    font-size: 60px;
+    font-family: 'Tiro Devanagari Marathi', serif;
+    letter-spacing: 3px;
+    text-shadow: 4px 4px 4px white;
+}
+
+.sub_head{
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 3px;
+}
