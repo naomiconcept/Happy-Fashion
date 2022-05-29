@@ -1,0 +1,66 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+#whole_screen{
+   
+    background: hsla(11, 82%, 87%, 1);
+
+    background: linear-gradient(90deg, hsla(11, 82%, 87%, 1) 0%, hsla(299, 85%, 90%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(11, 82%, 87%, 1) 0%, hsla(299, 85%, 90%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(11, 82%, 87%, 1) 0%, hsla(299, 85%, 90%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F9CDC3", endColorstr="#FACEFB", GradientType=1 );
+
+}
+
+input[type=text], select, textarea{
+    width: 80vw;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: palevioletred;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.col-25{
+    text-align: center;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:500px){
+    .col-25, .col-75, input[type=submit]{
+        width: 100%;
+        margin-top: 0;
+    }
+}
+.center_box{
+    
+    text-align: center;
+}
+

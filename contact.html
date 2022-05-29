@@ -5,20 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us|Happy Fashion </title>
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
 
-    <section id="center_box">
-        <h2>Contact Us</h2>
-        <br>
-        <p>
+    <section id="whole_screen">
+
+
+        <div class="center_box">
+            <h1 style="margin-top: 0; padding-top: 20px;">Contact Us</h1>
+            <br>
+            <h2>
             Like to get anything from us today? send us a message.
-        </p>
-        <br>
+            </h2>
+            <br>
 
-        <div class="parent_box">
-            <form action=""></form>
 
+            <div class="parent_box">
+                <form action="action_page.php">
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fname">First Name</label>
+                        </div>
+
+                        <div class="col-75">
+                            <input type="text" name="firstname" id="fname" placeholder="Please, input your name..">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="country">Country</label>
+                        </div>
+
+                        <div class="col-75">
+                            <select name="country" id="country">
+                                <option value="Nigeria">Nigeria</option>
+                                <option value="Canada">Canada</option>
+                                <option value="USA">USA</option>
+                                <option value="Mexico">Mexico</option>
+                                <option value="United Kingdom">United Kingdom</option>
+                                <option value="India">India</option>
+                                <option value="Ghana">Ghana</option>
+                                <option value="Netherland">Netherland</option>
+                                <option value="Kenya">Kenya</option>
+                                <option value="China">China</option>
+                                <option value="Japan">Japan</option>
+                                <option value="South Korea">South Korea</option>
+                                <option value="Brazil">Brazil</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="subject">Subject</label>
+                        </div>
+
+                        <div class="col-75">
+                            <textarea name="subject" id="subject" cols="30" rows="10" placeholder="What would you like to order? kindly type in here.." style="height: 200px;"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+
+            </div>
+            
         </div>
 
     </section>
