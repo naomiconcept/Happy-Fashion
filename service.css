@@ -56,7 +56,7 @@
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color:#ff5d8f;
+    background-color:#aa6b7f;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -74,4 +74,64 @@
 @keyframes fade{
     from{opacity: .4;}
     to{opacity: 1;}
+}
+
+
+.box_container{
+    padding-top: 60px;
+}
+
+.first_row{
+    display: flex;
+    justify-content: center;
+}
+
+.first_row img{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.first_row p{
+    margin-left: 20px;
+    
+    
+}
+
+.second_row{
+    display: flex;
+    justify-content: center;
+}
+
+.second_row img{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.second_row p{
+    margin-left: 20px;
+    
+}
+
+.third_row{
+    display: flex;
+    justify-content: center;
+}
+
+.third_row img{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.third_row p{
+    margin-left: 20px;
+    
 }
