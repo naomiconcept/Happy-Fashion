@@ -90,8 +90,8 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 50px;
-    width: 200px;
-    height: 200px;
+    width: 13vw;
+    height: 13vw;
 }
 
 .first_row p{
@@ -109,8 +109,8 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 50px;
-    width: 200px;
-    height: 200px;
+    width: 13vw;
+    height: 13vw;
 }
 
 .second_row p{
@@ -127,11 +127,29 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 50px;
-    width: 200px;
-    height: 200px;
+    width: 13vw;
+    height: 13vw;
 }
 
 .third_row p{
+    margin-left: 20px;
+    
+}
+
+.fourth_row{
+    display: flex;
+    justify-content: center;
+}
+
+.fourth_row img{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    width: 13vw;
+    height: 13vw;
+}
+
+.fourth_row p{
     margin-left: 20px;
     
 }
