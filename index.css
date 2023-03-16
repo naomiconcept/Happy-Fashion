@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+Sans);
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+
 
 
 .container{
@@ -49,6 +54,9 @@ a:active{ text-decoration: none; color: black;}
 .dropdown-content{
     display: none;
     text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+
 }
 
 
@@ -101,6 +109,16 @@ html, body{
     margin-right: auto;
     margin-top: 20px;
 }
+
+a:hover{
+    text-decoration: none;
+    color: #880E4F;
+    -moz-text-shadow: 3px 3px 10px #EC407A;
+    -webkit-text-shadow: 3px 3px 10px #EC407A;
+    text-shadow: 3px 3px 10px #EC407A;
+
+}
+
 
 .HeaderName{
     text-align: center;  
@@ -258,8 +276,8 @@ html, body{
 
 .footer_text{
     letter-spacing: 5px;
-    font-family: 'Bangers', cursive;
-    font-size: 8vw;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5vw;
 
 }
 
